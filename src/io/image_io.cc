@@ -40,7 +40,8 @@
 #include "../operator/elemwise_op_common.h"
 
 #if MXNET_USE_OPENCV
-  #include <opencv2/opencv.hpp>
+#include <opencv2/opencv.hpp>
+#include <opencv2/imgproc/imgproc_c.h>
 #endif  // MXNET_USE_OPENCV
 
 namespace mxnet {

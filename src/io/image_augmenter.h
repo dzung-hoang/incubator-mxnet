@@ -29,6 +29,7 @@
 
 #if MXNET_USE_OPENCV
 #include <opencv2/opencv.hpp>
+#include <opencv2/imgproc/imgproc_c.h>
 #include <vector>  // NOLINT(*)
 #include <utility> // NOLINT(*)
 #include <string> // NOLINT(*)

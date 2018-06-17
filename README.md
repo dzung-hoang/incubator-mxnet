@@ -1,3 +1,9 @@
+Preamble
+========
+
+This fork fixes compilation errors when MXNet is used with OpenCV 3.4.1. OpenCV is deprecating the C API, which MXNet is using. This is an interim work-around until a permanent solution is provided by MXNet contributors.
+
+
 <div align="center">
   <a href="https://mxnet.incubator.apache.org/"><img src="https://raw.githubusercontent.com/dmlc/web-data/master/mxnet/image/mxnet_logo_2.png"></a><br>
 </div>
